@@ -1,0 +1,287 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px
+}
+
+.contenidor{
+    width:1716px;
+    margin: auto;
+}
+.nav {
+    height:166px;
+    background-color: white;
+}
+
+.friends{
+    height: 180px;
+    width: 1300px;
+    margin: auto;
+}
+
+.pics{
+    height: 1860px;
+}
+
+.logo {
+    width: 219px;
+    height: 44px;
+    background-color: purple;
+    float: left;
+    background-image: url(../img/ifpagram_03.jpg);
+    margin: 50px 0 0 0; 
+}
+
+
+
+.menu {
+    width: 317px;
+    height: 44px;
+    float: left;
+    margin: 50px 0 0 492px;
+}
+
+.menu ul {
+    margin: 0px;
+}
+
+.menu ul li {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    float: left;
+    display: block;
+    background-image: url(../img/ifpagram_05.jpg);
+}
+
+.menu ul li:hover {
+    opacity: 0.3;
+}
+
+.inici {
+    background-position: -9px 0;
+}
+
+.cerca {
+    background-position: -93px 0;
+}
+
+.directes {
+    background-position: -176px 0;
+}
+
+.favorits {
+    background-position: -260px 0;
+}
+
+.perfil {
+    width: 80px;
+    height: 120px;
+    margin: 20px;
+    float: left;  
+    text-align: center;
+    opacity: 1;
+    
+}
+
+.foto {
+    width: 80px;
+    height: 80px;
+    background-color: ivory;
+    border-radius: 50%;
+    background-image: url(../img/fotoperfil-1.png);
+    border: brown 3px solid;
+    box-shadow: inset 0px 0px 4px white;
+    background-size: cover;
+}
+
+.perfil:hover {
+   opacity: 0.6;
+}
+
+.afegir {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    left: 60px;
+    top: -70px;
+    color: white;
+    line-height: 20px;
+    text-align:center
+}
+
+.nana {
+    background-image: url(../img/nana.png);
+}
+
+.judit {
+    background-image: url(../img/judit.png);
+}
+
+.shiro  {
+    background-image: url(../img/shiro.png);
+    background-size: cover;  
+}
+
+.cristian{
+    background-image: url(../img/cristian.png);
+}
+
+.genis {
+    background-image: url(../img/genis.png);
+}
+
+.vane {
+    background-image: url(../img/vane.png);
+}
+
+.miki {
+    background-image: url(../img/miki.png);
+}
+
+.ana {
+    background-image: url(../img/ana.png);
+}
+
+.jana {
+    background-image: url(../img/jana.png);
+}
+
+.alba {
+    background-image:url(../img/alba.png) ;
+}
+
+.post {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+    
+}
+
+.imatge {
+    width: 536px;
+    height: 536px;
+    
+    
+    
+}
+
+.info {
+    width: 268px;
+    height: 84px;
+    float: left;
+}
+
+.reaccions {
+    width: 268px;
+    height: 84px;
+    float: left;
+}
+
+.autor {
+    
+    width: 50px;
+    height: 50px;
+    margin:10px;
+    border-radius: 50%;
+    background-image: url(../img/genis.png);
+    background-size: cover;
+    float: left;
+}
+
+.usuari, .quan{
+  height: 25px;
+  width: 198px;
+  margin:10px 0 0 0;
+  float:left;
+}
+
+.quan{
+ margin: 0;
+ float: left;
+ color: grey;
+ font-size: 12px;
+
+}
+
+.likes{
+    margin: 10px;
+    height: 50px;
+    width: 80px;
+    float: left;
+}
+
+.cors{
+    background-image: url(../img/corazon.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    float: left;
+}
+
+.mes{
+   margin: 0 30px 20px 0 ; 
+   height: 50px;
+   width: 50px;
+   font-size: 25px;
+   float: right;
+}
+
+
+.imatge1{
+    background-image: url(../img/ifpagram_13.jpg);
+    width: 536px;
+    height: 536px;
+}
+
+.imatge2{
+    background-image: url(../img/ifpagram_15.jpg);
+    width: 536px;
+    height: 536px;
+}
+
+.imatge3{
+    background-image: url(../img/ifpagram_17.jpg);
+    width: 536px;
+    height: 536px;
+}
+
+.imatge4{
+    background-image: url(../img/ifpagram_22.jpg);
+    width: 536px;
+    height: 536px;
+}
+
+.imatge5{
+    background-image: url(../img/ifpagram_23.jpg);
+    width: 536px;
+    height: 536px;
+}
+
+.imatge6{
+    background-image: url(../img/ifpagram_24.jpg);
+    width: 536px;
+    height: 536px;
+}
+
+.imatge7{
+    background-image: url(../img/ifpagram_28.jpg);
+    width: 536px;
+    height: 536px;
+}
+
+.imatge8{
+    background-image: url(../img/ifpagram_29.jpg);
+    width: 536px;
+    height: 536px;
+}
+
+.imatge9{
+    background-image: url(../img/ifpagram_30.jpg);
+    width: 536px;
+    height: 536px;
+}

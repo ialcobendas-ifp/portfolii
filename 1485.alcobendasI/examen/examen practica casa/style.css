@@ -1,0 +1,306 @@
+body {
+    background: #222;
+    
+     
+}
+
+.capçalera {
+    height:50px;
+    width:100%;
+    
+    background:transparent 50%;
+    position:fixed;
+    z-index: 1000;
+}
+
+.logotip{
+    width:30px;
+    height:38px;
+    background-image: url(../imatges/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: 20px; ;
+    margin-right: 60px ;
+    float:left; 
+}
+
+.logotip img{
+    
+}
+
+
+.logotip:hover {
+    color: #FFF;
+}
+
+.informacio{
+    float:left;
+    color: #ccc;
+}
+
+a{
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#FFF;
+}
+
+p{
+    float: left;
+    margin: 20px 20px;
+    
+}
+
+p:hover{
+    color:#FFF;
+}
+
+
+
+
+h1{
+    color:white;
+    width:175px; 
+    font-family:Helvetica;
+    
+}
+
+.peli{
+    width:175px;
+    height:290px;
+    background:transparent;
+    float: left;
+    margin: 20px 20px;
+}
+
+.foto1 {
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/1982Koyaanisqatsi.jpg);
+    border-radius: 5px;
+}
+
+.foto2{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2004YTuQueSabes.jpg);
+    border-radius: 5px;
+}
+
+.foto3{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2005Earthlings.jpg);
+    border-radius: 5px;
+}
+
+.foto4{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2007Helvetica.jpg);
+    border-radius: 5px;
+}
+
+.foto5{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2007Sicko.jpg);
+    border-radius: 5px;
+}
+
+.foto6{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2008Zeitgeist2.jpg);
+    border-radius: 5px;
+}
+
+.foto7{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2009ArtAndCopy.jpg);
+    border-radius: 5px;
+}
+
+.foto8{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2009Home.jpg);
+    border-radius: 5px;
+}
+
+.foto9{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2009RipARemixManifesto.jpg);
+    border-radius: 5px;
+}
+
+.foto10{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2010ComprarTirarComprar.jpg);
+    border-radius: 5px;
+}
+
+.foto11{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2010InsideJob.jpg);
+    border-radius: 5px;
+}
+
+.foto12{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2011LaDoctrinaDeShock.jpg);
+    filter:grayscale(1);
+    border-radius: 5px;
+    
+}
+
+.foto13{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2012SearchingForSugarMan.jpg);
+    filter:grayscale(1);
+    border-radius: 5px;
+}
+
+.foto14{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2012TheActOfKilling.jpg);
+    filter:grayscale(1);
+    border-radius: 5px;
+}
+
+.foto15{
+    width: 175px;
+    height: 260px;
+    background: yellow;
+    background-image: url(../imatges/2013ElEspirituDel45.jpg);
+    filter:grayscale(1);
+    border-radius: 5px;
+}
+
+.foto16{
+    background:red;
+    width: 175px;
+    height: 260px;
+    float:left;
+    border-radius: 5px;
+}
+
+.foto17{
+    background:grey;
+    width: 175px;
+    height: 260px;
+    float:left;
+    border-radius: 5px;
+}
+
+.foto18{
+    background:rgb(173, 211, 61);
+    width: 175px;
+    height: 260px;
+    float:left;
+    border-radius: 5px;
+}
+
+.foto19{
+    background:lightgrey;
+    width: 175px;
+    height: 260px;
+    float:left;
+    border-radius: 5px;
+}
+
+
+.foto1:hover{
+    opacity: 50%;
+}
+
+.foto2:hover{
+    opacity: 50%;
+}
+.foto3:hover{
+    opacity: 50%;
+}
+.foto4:hover{
+    opacity: 50%;
+}
+.foto5:hover{
+    opacity: 50%;
+}
+.foto6:hover{
+    opacity: 50%;
+}
+.foto7:hover{
+    opacity: 50%;
+}
+.foto8:hover{
+    opacity: 50%;
+}
+.foto9:hover{
+    opacity: 50%;
+}
+.foto10:hover{
+    opacity: 50%;
+}
+.foto11:hover{
+    opacity: 50%;
+}
+.foto12:hover{
+    opacity: 50%;
+}
+.foto13:hover{
+    opacity: 50%;
+}
+.foto14:hover{
+    opacity: 50%;
+}
+.foto15:hover{
+    opacity: 50%;
+}
+.nombre {
+    color:#CCC;
+    font-size:14px;
+    font-family:Helvetica;
+    
+}
+
+.fecha{
+    color:#ccc;
+    font-size:11px;
+    font-family:Helvetica;
+    float:left;
+    
+}
+
+.estilo{
+    color:#ccc;
+    font-size:11px;
+    text-align: right;
+    font-family:Helvetica;
+    float:rigth;
+    
+}

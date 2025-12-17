@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        
+        body {text-align: justify;} /*para poder centrar todo el texto y poder justificarlo*/
+
+        img {width: 100px;}
+
+        #bart {float: left;}  /*para donde quiero poner la foto*/
+
+        #lisa {float: right;}
+        #capitular {float: left;
+                    width: 80px;
+                    padding-right: 5px;} /*el espacio que quiero de separacion*/
+
+        h1 {clear:both;}
+
+        .esquerra {width: 46%;
+                    float: left;
+                    padding:2%;}
+
+        .dreta {width: 46%;
+                float: right;
+                padding: 2%;}
+
+        .contenidor {width: 800px;
+                    margin: auto;} /*para que el texto y todos los elementos se queden a la mitad de la pantalla*/
+    
+    </style>
+
+</head>
+<body>
+
+    <div class="contenidor">
+
+        <h1>Float Left</h1>
+            <img id="bart" src="img/bart.png" alt="";>
+            <p>Proin aliquam magna quis leo porta cursus. In auctor ligula eu molestie dapibus. Donec tempor metus sapien. Mauris bibendum semper quam, a vehicula nunc lacinia eu. Integer magna dolor, malesuada ut turpis eget, porta sodales neque. Maecenas et mattis nisl. Proin vehicula eu lectus id tempus. Cras tempus scelerisque imperdiet. Praesent condimentum nunc turpis, vitae finibus purus dictum et. Sed sed magna nec elit vehicula pharetra.</p>
+
+        <h1>Float Right</h1>
+            <img id="lisa" src="img/lisa.png" alt="";>
+            <p>Phasellus faucibus feugiat purus, eget vestibulum justo porttitor consequat. Phasellus malesuada arcu nec ipsum ultricies, sit amet ornare tortor suscipit. Morbi ut pellentesque diam. Nam vestibulum arcu id nisl ornare, vitae pulvinar est porttitor. Praesent rutrum augue ipsum, vitae suscipit lectus pellentesque sit amet. Donec bibendum, sem vitae fermentum dignissim, urna neque ornare tortor, ut dapibus neque erat ut lorem. Curabitur sapien velit, fringilla id libero porttitor, commodo dictum odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <h1>Doble Float</h1>
+            <p class="esquerra">Etiam non malesuada sem. Nullam in ullamcorper lectus. Curabitur non odio massa. Donec pretium ex ut ante consequat luctus. Cras vulputate ultrices augue, in condimentum enim bibendum eu. Nullam luctus, lorem sit amet rutrum dictum, tortor leo facilisis elit, non elementum eros orci ut nunc. Nam tincidunt nunc at ex placerat iaculis. Fusce ac rutrum nibh. Phasellus ac enim ipsum. Vestibulum nec tellus non dolor egestas pulvinar. Aliquam aliquam, dui et vulputate feugiat, neque arcu viverra metus, placerat bibendum neque enim id massa. Maecenas ac efficitur magna. Donec fermentum bibendum eros in convallis. Maecenas facilisis eleifend massa, nec sagittis nunc sollicitudin in.</p>
+        
+            <p class="dreta">Suspendisse vestibulum commodo varius. Mauris nibh felis, ultrices ut sagittis fermentum, dignissim quis neque. Sed sed justo nec augue facilisis condimentum. Pellentesque et tortor facilisis, mollis lacus et, gravida sapien. Nullam quis augue tellus. Maecenas ultricies hendrerit justo at pellentesque. Donec dictum condimentum faucibus. Nulla eget tellus vitae mi lobortis commodo. Cras eget rutrum leo. Duis ac arcu venenatis, pellentesque dolor sed, facilisis felis. Donec at odio eu urna vehicula blandit quis eget dolor. Nam sit amet vehicula tellus.
+            </p>
+
+        <h1>Capitular</h1>
+            <img id="capitular" src="img/letra capitular.png" alt="";>    
+            <p> Sed tincidunt ultrices imperdiet. Nulla facilisi. Aliquam felis ipsum, fringilla eu dignissim eget, rutrum vitae nisl. Proin venenatis commodo pellentesque. Fusce quis est ut nibh hendrerit lobortis non vitae lectus. Phasellus dignissim aliquet pellentesque. Aliquam sagittis nisi eu mauris feugiast, nec scelerisque neque porta.</p>
+
+    </div>
+  
+</body>
+</html>

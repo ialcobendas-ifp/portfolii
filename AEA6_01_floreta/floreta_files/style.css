@@ -1,0 +1,11 @@
+body {
+    background-color: white;
+}
+
+.fulla {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: green;
+    border-radius: 50% 0% 50% 00%;
+}
